@@ -1,7 +1,7 @@
 {
-  "name": "bookstore",
+  "name": "playersDB",
   "version": "1.0.0",
-  "description": "Simple bookstore app",
+  "description": "Simple players database app",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,6 +11,6 @@
   	"body-parser":"*",
   	"mongoose":"*"
   },
-  "author": "Asmit Sharma",
+  "author": "Akul Garg",
   "license": "ISC"
 }
