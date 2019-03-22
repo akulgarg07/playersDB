@@ -10,7 +10,7 @@ Role =require('./models/roles');
 Player =require('./models/players');
 
 // Connect to Mongoose
-mongoose.connect('mongodb://localhost/icc');
+mongoose.connect('mongodb+srv://akulgarg07:akulgarg07@cluster1-upxld.mongodb.net/playersDB?retryWrites=true');
 var db = mongoose.connection;
 
 app.get('/', (req, res) => {
