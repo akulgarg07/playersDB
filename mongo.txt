@@ -1,0 +1,139 @@
+db.players.insert({
+	"name":"Virat Kohli",
+	"role":"Batsman",
+	"country":"India",
+	"age":"29",
+	"batting_style":"Right-Handed",
+	"bowling_style":"Right-arm medium",
+	"matches":"214",
+	"runs":"10076",
+	"wickets":"4",
+	"description":"A spunky, chubby teenager with gelled hair shot to fame after leading India to glory in the Under-19 World Cup at Kuala Lumpur in early 2008. In an Indian team filled with saint-like icons worthy of their own hagiographies, Virat Kohli, with his most un-Indian, 'bad-boy' intensity, would clearly be an outcast.",
+	"image_url":"https://i.cricketcb.com/stats/img/faceImages/1413.jpg"
+})
+
+db.players.insert({
+	"name":"Joe Root",
+	"role":"Batsman",
+	"country":"England",
+	"age":"27",
+	"batting_style":"Right-Handed",
+	"bowling_style":"Right-arm Off-spin",
+	"matches":"121",
+	"runs":"4946",
+	"wickets":"20",
+	"description":"Joe Root, born on 30th December 1990, hails from a rich cricketing background. His grandfather captained Rotherham CC in the Yorkshire League for several seasons whilst his younger brother, Billy, is a MCC young cricketer. In addition to being awarded a Daily Telegraph scholarship at the 2005 Bunbury festival, Root also attracted cricket scholarships at Workshop College, the school he attended, and Yorkshire Cricket academy. ",
+	"image_url":"https://i.cricketcb.com/stats/img/faceImages/8019.jpg"
+})
+
+db.players.insert({
+	"name":"James Anderson",
+	"role":"Bowler",
+	"country":"England",
+	"age":"36",
+	"batting_style":"Left-Handed",
+	"bowling_style":"Right-arm medium",
+	"matches":"194",
+	"runs":"273",
+	"wickets":"269",
+	"description":"Born in Burnley, Lancashire, James Anderson is perhaps the best swing bowler in the world at the present moment. He made his England debut in the season of 2002 and for the best part of five years till late 2007 remained in and out of the side.",
+	"image_url":"https://i.cricketcb.com/stats/img/faceImages/65.jpg"
+})
+
+db.players.insert({
+	"name":"MS Dhoni",
+	"role":"Batsman",
+	"country":"India",
+	"age":"37",
+	"batting_style":"Right-Handed",
+	"bowling_style":"Right-arm medium",
+	"matches":"330",
+	"runs":"10143",
+	"wickets":"1",
+	"description":"'Dhoniiiii finishes off in style. A magnificent strike into the crowd. India lift the World Cup after 28 years. The party's started in the dressing room. And it’s an Indian captain, who’s been absolutely magnificent, in the night of the final.’ ",
+	"image_url":"https://i.cricketcb.com/stats/img/faceImages/265.jpg"
+})
+
+db.players.insert({
+	"name":"Kagiso Rabada",
+	"role":"Bowler",
+	"country":"South Africa",
+	"age":"23",
+	"batting_style":"Right-Handed",
+	"bowling_style":"Right-arm fast",
+	"matches":"54",
+	"runs":"189",
+	"wickets":"86",
+	"description":"Rabada is armed with the ability to swing the ball conventionally, though he prefers to make it seam off the wickets with the scrambled seam deliveries, especially when the seam is prominent and likely to cause deviations off the surface. ",
+	"image_url":"https://i.cricketcb.com/stats/img/faceImages/9585.jpg"
+})
+
+db.players.insert({
+	"name":"Jasprit Bumrah",
+	"role":"Bowler",
+	"country":"India",
+	"age":"24",
+	"batting_style":"Right-Handed",
+	"bowling_style":"Right-arm medium",
+	"matches":"42",
+	"runs":"11",
+	"wickets":"75",
+	"description":"In an Indian team desperately searching for a death overs' bowler, Jasprit Bumrah came to the fore through the Indian premier league, as a boon for cricket in the country. The scantily-built pacer from Gujarat has managed to perfect the art of bowling inch-perfect yorkers as an understudy to Lasith Malinga as a part of the Mumbai Indians franchise and has grown into an indispensable asset for the Indian team in the limited-overs format. ",
+	"image_url":"https://i.cricketcb.com/stats/img/faceImages/9311.jpg"
+})
+
+db.players.insert({
+	"name":"Rashid Khan",
+	"role":"All-Rounder",
+	"country":"Afghanistan",
+	"age":"20",
+	"batting_style":"Right-Handed",
+	"bowling_style":"Right-arm medium",
+	"matches":"51",
+	"runs":"676",
+	"wickets":"118",
+	"description":"Rashid Khan perhaps has claims to the best cricketing teenage of his times. At eighteen, he not just matured to become an indispensable ration for the Afghanistan cricket team but also flaunted an elusive contract from the cash-rich Indian Premier League, a market that prides itself on being agonizingly indifferent to the concepts of sentimentalism. ",
+	"image_url":"https://i.cricketcb.com/stats/img/faceImages/10738.jpg"
+})
+
+db.players.insert({
+	"name":"David Warner",
+	"role":"Batsman",
+	"country":"Australia",
+	"age":"32",
+	"batting_style":"Ledt-Handed",
+	"bowling_style":"Right-arm leg-spin",
+	"matches":"106",
+	"runs":"4343",
+	"wickets":"0",
+	"description":"David Warner had one of the most memorable debuts in international cricket, when he was plucked from obscurity - without having played a single First-Class match - and made a stunning 89 off 43 balls in a T20l against South Africa. The innings was all the more remarkable due to its timing, coming as it did after a morale-shattering home Test series loss for Australia in 2008-09.",
+	"image_url":"https://i.cricketcb.com/stats/img/faceImages/1739.jpg"
+})
+
+db.players.insert({
+	"name":"Steven Smith",
+	"role":"Batsman",
+	"country":"Australia",
+	"age":"29",
+	"batting_style":"Right-Handed",
+	"bowling_style":"Right-arm leg-spin",
+	"matches":"108",
+	"runs":"3431",
+	"wickets":"27",
+	"description":"The best Test batsman at present, Steven Smith's career redemption is a story for the ages. Having made his name initially as a potential leg-spinner who could bat a bit, there was immense criticism, even among those in Australia over the quality of his selection during his early days in international cricket. However, they were made to eat humble pie as the enigmatic man from New South Wales turned things around in sensational fashion to feature among the best batsmen in the world.",
+	"image_url":"https://i.cricketcb.com/stats/img/faceImages/2250.jpg"
+})
+
+db.players.insert({
+	"name":"Rohit Sharma",
+	"role":"Batsman",
+	"country":"India",
+	"age":"31",
+	"batting_style":"Right-Handed",
+	"bowling_style":"Right-arm off-spin",
+	"matches":"191",
+	"runs":"7221",
+	"wickets":"8",
+	"description":"Talent – an apparently heartening term that has followed Rohit Sharma around like a shadow; even haunted him at times. It seems to be a burden that the cricketing fraternity has enforced upon him and, after more than a decade in the national setting, he has been weighed down by the label.",
+	"image_url":"https://i.cricketcb.com/stats/img/faceImages/576.jpg"
+})

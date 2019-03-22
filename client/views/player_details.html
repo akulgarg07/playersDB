@@ -1,0 +1,30 @@
+<a href="#/players">Go Back</a>
+<div class="panel panel-default" ng-init="getPlayer()">
+  <div class="panel-heading">
+    <h3 class="panel-title">{{player.name}}</h3>
+  </div>
+  <div class="panel-body">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="{{player.image_url}}">
+      </div>
+      <div class="col-md-8">
+        </p>{{player.description}}</p>
+        <ul class="list-group">
+          <li class="list-group-item">Role: {{player.role}}</li>
+          <li class="list-group-item">Country: {{player.country}}</li>
+          <li class="list-group-item">Age: {{player.age}}</li>
+          <li class="list-group-item">Batting Style: {{player.batting_style}}</li>
+          <li class="list-group-item">Bowling Style: {{player.bowling_style}}</li>
+          <li class="list-group-item">Matches: {{player.matches}}</li>
+          <li class="list-group-item">Runs: {{player.runs}}</li>
+          <li class="list-group-item">Wickets: {{player.wickets}}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="pull-right">
+  <a href="#/players/edit/{{player._id}}">Edit</a> |  <a href="#" ng-click="removePlayer(player._id)">Delete</a>
+  </div>

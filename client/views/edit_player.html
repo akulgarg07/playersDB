@@ -1,0 +1,63 @@
+<a href="#/players">Go Back</a>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Edit Player</h3>
+  </div>
+  <div class="panel-body">
+    <div class="row">
+      <div class="col-md-12">
+      <form ng-submit="updatePlayer()" ng-init="getPlayer()">
+        <div class="form-group">
+          <label>Name</label>
+          <input type="text" class="form-control" ng-model="player.name" placeholder="Name">
+        </div>
+        <div class="form-group">
+          <label>Role</label>
+          <select ng-model="player.role" class="form-control">
+            <option value="Batsman">Batsman</option>
+            <option value="Bowler">Bowler</option>
+            <option value="Allrounder">Allrounder</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Country</label>
+          <input type="text" class="form-control" ng-model="player.country" placeholder="Country">
+        </div>
+        <div class="form-group">
+          <label>Age</label>
+          <input type="text" class="form-control" ng-model="player.age" placeholder="Age">
+        </div>
+        <div class="form-group">
+          <label>Batting Style</label>
+          <input type="text" class="form-control" ng-model="player.batting_style" placeholder="Batting Style">
+        </div>
+        <div class="form-group">
+          <label>Bowling Style</label>
+          <input type="text" class="form-control" ng-model="player.bowling_style" placeholder="Bowling Style">
+        </div>
+        <div class="form-group">
+          <label>Matches</label>
+          <input type="text" class="form-control" ng-model="player.matches" placeholder="Matches">
+        </div>
+        <div class="form-group">
+          <label>Runs</label>
+          <input type="text" class="form-control" ng-model="player.runs" placeholder="Runs">
+        </div>
+        <div class="form-group">
+          <label>Wickets</label>
+          <input type="text" class="form-control" ng-model="player.wickets" placeholder="Wickets">
+        </div>
+        <div class="form-group">
+          <label>Description</label>
+          <textarea class="form-control" ng-model="player.description" placeholder="Description"></textarea>
+        </div>
+        <div class="form-group">
+          <label>Image URL</label>
+          <input type="text" class="form-control" ng-model="player.image_url" placeholder="Image URL">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+    </div>
+    </div>
+  </div>
+</div>
