@@ -1,1 +1,14 @@
 img{width:100%;}
+
+.form-group
+{
+  width:100%;
+  text-align:center;
+  font-weight:normal;
+}
+input[type=text]
+{
+  color:black;
+  font-size:20px;
+  text-decoration:none;
+}
